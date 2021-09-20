@@ -65,6 +65,7 @@ public class EditMedication extends AppCompatActivity {
         dose_amount.setText(med.get_dose().toString());
         date_started.setDate(med.get_date_started());
         dose_unit.setSelection(dose_units.indexOf(med.get_dose_unit()));
+        daily_frequency.setText(med.get_daily_frequency().toString());
 
         date_selected = med.get_date_started();
 

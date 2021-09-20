@@ -121,7 +121,10 @@
                 <Spinner
                     android:id="@+id/dose_unit"
                     android:layout_width="match_parent"
-                    android:layout_height="46dp" />
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:gravity="center" />
 
             </LinearLayout>
 
@@ -142,6 +145,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
+                    android:gravity="center"
                     android:hint="type daily frequency here"
                     android:inputType="number" />
 
